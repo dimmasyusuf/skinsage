@@ -4,7 +4,7 @@ import {MoveRight} from 'lucide-react';
 export default function CTA() {
   return (
     <section className="px-4 py-8 md:px-6">
-      <div className="bg-primary mx-auto flex max-w-screen-xl flex-col items-center justify-center gap-8 rounded-2xl px-6 py-12">
+      <div className="bg-primary mx-auto flex max-w-screen-lg flex-col items-center justify-center gap-8 rounded-2xl px-6 py-12">
         <div className="flex flex-col">
           <h2 className="prose prose-xl md:prose-2xl text-primary-foreground text-center font-bold">
             Your Skin Deserves Better. Don&apos;t wait!
