@@ -5,4 +5,5 @@ export {default as Belief} from './Belief';
 export {default as Outcome} from './Outcome';
 export {default as Paradigm} from './Paradigm';
 export {default as Solution} from './Solution';
+export {default as Connextion} from './Connextion';
 export {default as CTA} from './CTA';

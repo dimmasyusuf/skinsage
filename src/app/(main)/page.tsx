@@ -1,6 +1,7 @@
 import {
   Belief,
   Blockquote,
+  Connextion,
   CTA,
   Hero,
   Outcome,
@@ -19,6 +20,7 @@ export default function Home() {
       <Outcome />
       <Paradigm />
       <Solution />
+      <Connextion />
       <CTA />
     </main>
   );
