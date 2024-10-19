@@ -1,9 +1,10 @@
-import {Blockquote} from '@/components/sections';
+import {Blockquote, CTA} from '@/components/sections';
 
 export default function Home() {
   return (
-    <main className="flex h-screen w-full items-center justify-center">
+    <main className="flex min-h-dvh w-full flex-col">
       <Blockquote />
+      <CTA />
     </main>
   );
 }
