@@ -1,4 +1,4 @@
-import {Blockquote, CTA, Hero, Situation} from '@/components/sections';
+import {Belief, Blockquote, CTA, Hero, Situation} from '@/components/sections';
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <Hero />
       <Blockquote />
       <Situation />
+      <Belief />
       <CTA />
     </main>
   );
