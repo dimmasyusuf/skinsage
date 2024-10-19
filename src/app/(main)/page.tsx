@@ -1,10 +1,11 @@
-import {Blockquote, CTA, Hero} from '@/components/sections';
+import {Blockquote, CTA, Hero, Situation} from '@/components/sections';
 
 export default function Home() {
   return (
     <main className="flex min-h-dvh w-full flex-col">
       <Hero />
       <Blockquote />
+      <Situation />
       <CTA />
     </main>
   );
