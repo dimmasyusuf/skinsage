@@ -1,9 +1,9 @@
-import {Button} from '@/components/ui';
+import {Blockquote} from '@/components/sections';
 
 export default function Home() {
   return (
     <main className="flex h-screen w-full items-center justify-center">
-      <Button>SkinSage</Button>
+      <Blockquote />
     </main>
   );
 }
