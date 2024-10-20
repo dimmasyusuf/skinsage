@@ -1,3 +1,8 @@
+export {Accordion} from './accordion';
+export {AccordionContent} from './accordion';
+export {AccordionItem} from './accordion';
+export {AccordionTrigger} from './accordion';
+
 export {Button} from './button';
 
 export {Drawer} from './drawer';
