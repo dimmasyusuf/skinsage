@@ -26,7 +26,7 @@ export default function Hero() {
             </p>
           </div>
 
-          <div className="mt-4 flex flex-col gap-2">
+          <div className="mt-4 flex flex-col gap-4">
             <div className="flex items-center gap-4">
               <CheckCircle size="24" className="shrink-0 grow-0 text-primary" />
               <p className="prose prose-sm md:prose-base">
