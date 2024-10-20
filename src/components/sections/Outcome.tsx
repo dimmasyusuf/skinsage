@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Outcome() {
   return (
-    <section className="px-4 py-8 md:px-6">
+    <section id="vision" className="px-4 py-8 md:px-6">
       <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-8 md:grid-cols-2">
         <Image
           src="/images/outcome.jpeg"
