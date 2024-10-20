@@ -8,7 +8,8 @@ export default function Connextion() {
           <Image
             src="/images/connextion.webp"
             alt="From Struggle to Solution: My Family's Story"
-            layout="fill"
+            fill
+            sizes="100vw"
             loading="lazy"
             className="rounded-2xl object-cover"
           />

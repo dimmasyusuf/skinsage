@@ -45,7 +45,8 @@ export default function Solution() {
           <Image
             src="/images/solution.webp"
             alt="How does it work?"
-            layout="fill"
+            fill
+            sizes="100vw"
             loading="lazy"
             className="rounded-2xl object-cover"
           />

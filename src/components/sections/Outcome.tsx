@@ -8,7 +8,8 @@ export default function Outcome() {
           <Image
             src="/images/outcome.webp"
             alt="Now Imagine..."
-            layout="fill"
+            fill
+            sizes="100vw"
             loading="lazy"
             className="rounded-2xl object-cover"
           />

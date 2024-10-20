@@ -10,9 +10,10 @@ export default function Hero() {
           <Image
             src="/images/hero.webp"
             alt="Struggling With Skin Issues That Just Won't Go Away?"
-            layout="fill"
-            loading="lazy"
+            fill
+            sizes="100vw"
             className="rounded-2xl object-cover"
+            priority
           />
         </div>
 

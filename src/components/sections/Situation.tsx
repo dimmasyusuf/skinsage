@@ -44,7 +44,8 @@ export default function Situation() {
           <Image
             src="/images/situation.webp"
             alt="Are You Tired of Trying Everything with No Results?"
-            layout="fill"
+            fill
+            sizes="100vw"
             loading="lazy"
             className="rounded-2xl object-cover"
           />
