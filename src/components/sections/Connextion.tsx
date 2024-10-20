@@ -4,16 +4,18 @@ export default function Connextion() {
   return (
     <section className="px-4 py-8 md:px-6">
       <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-8 md:grid-cols-2">
-        <Image
-          src="/images/connextion.jpeg"
-          alt="hero"
-          width={1024}
-          height={1024}
-          className="rounded-2xl"
-        />
+        <div className="relative flex aspect-[1/1] h-full w-full items-center justify-center rounded-2xl sm:aspect-[4/3]">
+          <Image
+            src="/images/connextion.webp"
+            alt="From Struggle to Solution: My Family's Story"
+            layout="fill"
+            loading="lazy"
+            className="rounded-2xl object-cover"
+          />
+        </div>
 
         <div className="flex w-full flex-col gap-4">
-          <h2 className="prose prose-xl md:prose-2xl font-bold">
+          <h2 className="prose prose-xl font-bold md:prose-2xl">
             From Struggle to Solution: My Family&apos;s Story
           </h2>
 

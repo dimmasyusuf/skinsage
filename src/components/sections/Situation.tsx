@@ -35,13 +35,15 @@ export default function Situation() {
           </div>
         </div>
 
-        <Image
-          src="/images/situation.jpeg"
-          alt="hero"
-          width={1024}
-          height={1024}
-          className="order-1 rounded-2xl md:order-2"
-        />
+        <div className="relative order-1 flex aspect-[1/1] h-full w-full items-center justify-center rounded-2xl sm:aspect-[4/3] md:order-2">
+          <Image
+            src="/images/situation.webp"
+            alt="Are You Tired of Trying Everything with No Results?"
+            layout="fill"
+            loading="lazy"
+            className="rounded-2xl object-cover"
+          />
+        </div>
       </div>
     </section>
   );
