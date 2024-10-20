@@ -1,3 +1,4 @@
+import {DollarSignIcon, FrownIcon, Hourglass, RotateCw} from 'lucide-react';
 import Image from 'next/image';
 
 export default function Situation() {
@@ -11,23 +12,27 @@ export default function Situation() {
             </h2>
           </div>
 
-          <div className="mt-4 flex flex-col gap-2">
+          <div className="mt-4 flex flex-col gap-4">
             <div className="flex items-center gap-4 rounded-lg bg-secondary p-4">
+              <RotateCw size="24" className="text-primary" />
               <p className="prose prose-sm md:prose-base">
                 You&apos;ve tried creams, oils, and home remedies.
               </p>
             </div>
             <div className="flex items-center gap-4 rounded-lg bg-secondary p-4">
+              <DollarSignIcon size="24" className="text-primary" />
               <p className="prose prose-sm md:prose-base">
                 You&apos;re spending money on products that don&apos;t work.
               </p>
             </div>
             <div className="flex items-center gap-4 rounded-lg bg-secondary p-4">
+              <Hourglass size="24" className="text-primary" />
               <p className="prose prose-sm md:prose-base">
                 You wait in long lines or travel far for appointments.
               </p>
             </div>
             <div className="flex items-center gap-4 rounded-lg bg-secondary p-4">
+              <FrownIcon size="24" className="text-primary" />
               <p className="prose prose-sm md:prose-base">
                 You feel disappointed when the results don&apos;t last.
               </p>
