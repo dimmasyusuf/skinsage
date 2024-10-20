@@ -15,7 +15,7 @@ import {navbarMenu} from '@/lib/constants';
 
 export default function Header() {
   return (
-    <header className="sticky top-0 w-full border-b bg-background px-4 py-4 md:px-6">
+    <header className="sticky top-0 z-50 w-full border-b bg-background px-4 py-4 md:px-6">
       <Navbar />
     </header>
   );
